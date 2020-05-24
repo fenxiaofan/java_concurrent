@@ -26,6 +26,6 @@ public class JavaConcurrentApplication extends WebMvcConfigurationSupport {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(new HttpInterceptor()).addPathPatterns("/*");
+        registry.addInterceptor(new HttpInterceptor()).addPathPatterns("/**`");
     }
 }
